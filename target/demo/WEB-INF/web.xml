@@ -1,0 +1,163 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <jsp-config>
+    <jsp-property-group>
+      <url-pattern>*.jsp</url-pattern>
+      <el-ignored>false</el-ignored>
+    </jsp-property-group>
+  </jsp-config>
+
+  <servlet>
+    <servlet-name>ChartList</servlet-name>
+    <servlet-class>com.example.Controlleur.Autres.ChartList</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ChartList</servlet-name>
+    <url-pattern>/chart/recette</url-pattern>
+  </servlet-mapping>
+
+  <!-- vol -->
+
+  <servlet>
+    <servlet-name>ModifierVol</servlet-name>
+    <servlet-class>com.example.Controlleur.Vol.Form</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ModifierVol</servlet-name>
+    <url-pattern>/modifier/vol</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AjoutVol</servlet-name>
+    <servlet-class>com.example.Controlleur.Vol.Form</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AjoutVol</servlet-name>
+    <url-pattern>/ajouter/vol</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SupprimerVol</servlet-name>
+    <servlet-class>com.example.Controlleur.Vol.Form</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>SupprimerVol</servlet-name>
+    <url-pattern>/supprimer/vol</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DataVol</servlet-name>
+    <servlet-class>com.example.Controlleur.Vol.Data</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DataVol</servlet-name>
+    <url-pattern>/vol</url-pattern>
+  </servlet-mapping>
+
+  <!-- avion -->
+
+  <servlet>
+    <servlet-name>ModifierAvion</servlet-name>
+    <servlet-class>com.example.Controlleur.Avion.Form</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ModifierAvion</servlet-name>
+    <url-pattern>/modifier/avion</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AjoutAvion</servlet-name>
+    <servlet-class>com.example.Controlleur.Avion.Form</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AjoutAvion</servlet-name>
+    <url-pattern>/ajouter/avion</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SupprimerAvion</servlet-name>
+    <servlet-class>com.example.Controlleur.Avion.Form</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>SupprimerAvion</servlet-name>
+    <url-pattern>/supprimer/avion</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DataAvion</servlet-name>
+    <servlet-class>com.example.Controlleur.Avion.Data</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DataAvion</servlet-name>
+    <url-pattern>/avion</url-pattern>
+  </servlet-mapping>
+
+  <!-- réservation -->
+
+  <servlet>
+    <servlet-name>ModifierReservation</servlet-name>
+    <servlet-class>com.example.Controlleur.Reservation.Form</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ModifierReservation</servlet-name>
+    <url-pattern>/modifier/reservation</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AjoutReservation</servlet-name>
+    <servlet-class>com.example.Controlleur.Reservation.Form</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AjoutReservation</servlet-name>
+    <url-pattern>/ajouter/reservation</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SupprimerReservation</servlet-name>
+    <servlet-class>com.example.Controlleur.Reservation.Form</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>SupprimerReservation</servlet-name>
+    <url-pattern>/supprimer/reservation</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DataReservation</servlet-name>
+    <servlet-class>com.example.Controlleur.Reservation.Data</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DataReservation</servlet-name>
+    <url-pattern>/reservation</url-pattern>
+  </servlet-mapping>
+
+  <!-- voyageurs -->
+
+  <servlet>
+    <servlet-name>Voyageurs</servlet-name>
+    <servlet-class>com.example.Controlleur.Autres.Voyageurs</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Voyageurs</servlet-name>
+    <url-pattern>/voyageurs</url-pattern>
+  </servlet-mapping>
+
+</web-app>

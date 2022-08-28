@@ -1,0 +1,49 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #bdbdbd;
+}
+
+body{
+    /*overflow-x: hidden;*/
+     height: calc(100vh)!important;
+     background: url("../Image/bgAccueil.png") no-repeat;
+}
+
+.title .nav-link-text {
+    font-family: 'Trebuchet MS';
+    color: #5e72e4 !important;
+    font-weight: 900;
+    font-size: 20px !important;
+}
+
+a {
+    color: rgb(255, 255, 255)!important;
+}
+
+.form {
+    display: flex;
+}
+
+.card {
+    width: 25rem;
+    margin-left: 3rem;
+    border: none;
+}
+
+@media screen and (max-width: 900px) {
+    .form {
+    display: none;
+    }
+
+    .title .nav-link-text{
+        display: none;
+    }
+}
+
+footer {
+    position: relative;
+    bottom: 0!important;
+}

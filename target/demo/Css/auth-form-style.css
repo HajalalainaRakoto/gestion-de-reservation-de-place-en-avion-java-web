@@ -1,0 +1,22 @@
+.sidebar {
+    display: none;
+}
+
+.content {
+    position: absolute;
+    left: 0!important;
+    max-width: 100%!important;
+	background: url("../image/d.jpg") no-repeat bottom left;
+}
+
+.card {
+    border: none;
+}
+
+footer {
+    color: white;
+}
+
+.content > .top-menu > .navbar {
+    display: none;
+}
